@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>線形代数ノート</title>
+      <link href="/2023/08/01/%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%E3%83%8E%E3%83%BC%E3%83%88/"/>
+      <url>/2023/08/01/%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%E3%83%8E%E3%83%BC%E3%83%88/</url>
+      
+        <content type="html"><![CDATA[<h2 id="線形代数ノート"><a href="#線形代数ノート" class="headerlink" title="線形代数ノート"></a>線形代数ノート</h2><hr><ol><li><p>符号</p><script type="math/tex; mode=display"> ベクトル（列）: \begin{pmatrix} x \\ y \end{pmatrix} 行列： \begin{pmatrix} a & b \\ c & d \end{pmatrix} 行列式: \begin{vmatrix} a & b \\ c & d \end{vmatrix}</script></li><li><p>行列</p><ul><li><p>m x n　行列</p><script type="math/tex; mode=display">A=\begin{pmatrix}a_{11} &  \cdots &a_{1n}\\\vdots &  \ddots &\vdots\\a_{m1} &  \cdots &a_{mn}\\\end{pmatrix}\\m行n列を持つm\times n行列Aの　\boldsymbol{x行目、y列目}　の成分は　a_{xy}\\特に、1\times n行列はｎ次元行ベクトル\\m \times 1行列はm次元列ベクトル</script></li><li><p>演算法則</p><ol><li><p>和</p><script type="math/tex; mode=display">A=\begin{pmatrix}a_{11} &  \cdots &a_{1n}\\\vdots &  \ddots &\vdots\\a_{m1} &  \cdots &a_{mn}\\\end{pmatrix}B=\begin{pmatrix}b_{11} &  \cdots &b_{1n}\\\vdots &  \ddots &\vdots\\b_{m1} &  \cdots &b_{mn}\\\end{pmatrix}\\２つのm\times n行列の和\\A+B=\begin{pmatrix}a_{11}+b_{11} &  \cdots &a_{1n}+b_{1n}\\\vdots &  \ddots &\vdots\\a_{m1}+b_{m1} &  \cdots &a_{mn}+b_{mn}\\\end{pmatrix}\\</script></li><li><p>スカラー倍</p><script type="math/tex; mode=display">sA=s\begin{pmatrix}a_{11} &  \cdots &a_{1n}\\\vdots &  \ddots &\vdots\\a_{m1} &  \cdots &a_{mn}\\\end{pmatrix}=\begin{pmatrix}sa_{11} &  \cdots &sa_{1n}\\\vdots &  \ddots &\vdots\\sa_{m1} &  \cdots &sa_{mn}\\\end{pmatrix}</script></li><li><p>積</p><script type="math/tex; mode=display">２つの行列\\A=\begin{pmatrix}a_{11} &  \cdots &a_{1b}\\\vdots &  \ddots &\vdots\\a_{a1} &  \cdots &a_{ab}\\\end{pmatrix}(a\times b行列)\\B=\begin{pmatrix}b_{11} &  \cdots &b_{c1}\\\vdots &  \ddots &\vdots\\b_{b1} &  \cdots &b_{bc}\\\end{pmatrix}(b\times c行列)\\aとcは任意ですが、Aの列数(=b)とBの行数(=b)は必ず等しい\\そしてC=ABとする、C(a\times c行列)の成分c_{xy}は\\Aのx行目の行ベクトル\begin{pmatrix}a_{x1}&\cdots&a_{xb}\\\end{pmatrix}とBのy列目の列ベクトル\begin{pmatrix}b_{1y}\\ \vdots \\b_{by}\end{pmatrix}の積\\ c_{xy}=\begin{pmatrix}a_{x1}&\cdots&a_{xb}\\\end{pmatrix}\begin{pmatrix}b_{1y}\\ \vdots \\b_{by}\end{pmatrix}=\sum_{i=1}^b a_{xi}b_{iy}\\C=\begin{pmatrix}\sum_{i=1}^b a_{1i}b_{i1} &  \cdots &\sum_{i=1}^b a_{1i}b_{ic}\\\vdots &  \ddots &\vdots\\\sum_{i=1}^b a_{ai}b_{i1} &  \cdots &\sum_{i=1}^b a_{ai}b_{ic}\\\end{pmatrix}(a\times c行列)</script></li></ol></li><li><p>非可換性</p><script type="math/tex; mode=display">一般に、AB\ne BA</script></li><li>一次変換<script type="math/tex; mode=display">ベクトル\vec aが行列Aを変換するとベクトル\vec {a'}になる\\\vec {a'}=A\vec a\\</script></li><li>演算性質<script type="math/tex; mode=display">和\\結合法則:(A+B)+C=A+(B+C)\\交換法則:A+B=B+A\\スカラー倍\\分配法則1:k(A+B)=kA+kB\\分配法則2:(k+l)A=kA=lA\\結合法則:(kl)A=k(lA)\\積\\結合法則:A(BC)=(AB)C\\分配法則1:A(B+C)=AB+AC\\分配法則2:(A+B)C=AC+BC\\AB\ne BA</script></li></ul></li><li><p>一次独立と一次従属</p><script type="math/tex; mode=display"></script></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些音mad想法</title>
+      <link href="/2023/07/25/%E4%B8%80%E4%BA%9B%E9%9F%B3mad%E6%83%B3%E6%B3%95/"/>
+      <url>/2023/07/25/%E4%B8%80%E4%BA%9B%E9%9F%B3mad%E6%83%B3%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="2023年7月25日-21-59-57"><a href="#2023年7月25日-21-59-57" class="headerlink" title="2023年7月25日 21:59:57"></a>2023年7月25日 21:59:57</h2><h2 id="随时列一些想法"><a href="#随时列一些想法" class="headerlink" title="随时列一些想法"></a>随时列一些想法</h2><ul><li>テレキャスタービーボーイ（丽丽）</li><li>Big Brother（波奇+齐齐哈尔）</li><li><p>Candy purple ()</p></li><li><p>Cranberry City 「Can’t stop ..」之后动漫人物与现实场景融合快速闪过连续画面</p></li><li>フロートプレイ电车驶过踏切摇</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>山手线停运</title>
       <link href="/2023/07/24/%E5%B1%B1%E6%89%8B%E7%BA%BF%E5%81%9C%E8%BF%90/"/>
       <url>/2023/07/24/%E5%B1%B1%E6%89%8B%E7%BA%BF%E5%81%9C%E8%BF%90/</url>
